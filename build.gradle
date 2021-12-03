@@ -1,0 +1,16 @@
+
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+    implementation 'cglib:cglib:3.2.4'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
